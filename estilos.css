@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5cm;
+    border-style: double;
+}
+
+.contenedor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caja1{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.caja2{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.caja3{
+    padding: 10px;
+    background-color: aqua;
+}
+
+header img{
+    height: 100px;
+    width: 265px;
+    border-radius: 0%;
+    border-style: none;
+}
+
+.intro{
+    font-family: "Libre Bodoni", serif; tamaño-óptico-de-fuente: automático; peso de fuente: <peso>; estilo de fuente: normal;
+}
