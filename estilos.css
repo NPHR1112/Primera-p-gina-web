@@ -14,17 +14,17 @@ img{
 
 .caja1{
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(145, 235, 205);
 }
 
 .caja2{
     padding: 10px;
-    background-color: blanchedalmond;
+    background-color: rgb(217, 179, 123);
 }
 
 .caja3{
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(148, 245, 245);
 }
 
 header img{
@@ -34,6 +34,15 @@ header img{
     border-style: none;
 }
 
+#carouselExample img{
+    height: 500px;
+    width: 500px;
+    border-radius: 0%;
+    border-style: none;
+}
+
 .intro{
     font-family: "Libre Bodoni", serif; tamaño-óptico-de-fuente: automático; peso de fuente: <peso>; estilo de fuente: normal;
+    padding: 10px;
+    margin-bottom: 10px;
 }
