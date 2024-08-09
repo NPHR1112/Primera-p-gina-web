@@ -1,40 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 
-img{
-    width: 200px;
-    height: 300px;
-    border-radius: 5cm;
-    border-style: double;
+body{
+    background: url('Imagenes/fondopagina.png');
+    background-size: cover;
+    
 }
 
-.contenedor{
-    margin-top: 10px;
+.pf{
+    background:url(./Imagenes/fondopagina.png);
+    background-size: 100%;
+}
+
+.fagua{
+    background: url(./Imagenes/fondoagua.gif);
+    background-size: 100%;
+}
+
+.ftierra{
+    background: url(./Imagenes/fondotierra.jpg);
+    background-size: 100%;
+
+}
+
+.faire{
+    background: url(./Imagenes/fondoaire.webp);
+    background-size: 100%;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: 350px;
+}
+
+.contenedorgral{
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.caja1{
+.cajas{
     padding: 10px;
-    background-color: rgb(145, 235, 205);
+    display:flex ;
 }
 
-.caja2{
-    padding: 10px;
-    background-color: rgb(217, 179, 123);
-}
-
-.caja3{
-    padding: 10px;
-    background-color: rgb(148, 245, 245);
+.container{
+    background-color: white;
+    color: black;
+    margin: 50px auto;   
+    padding: 20px;
+    border-radius: 30px;
 }
 
 header img{
-    height: 100px;
-    width: 265px;
+    height: 180px;
+    width: 350px;
     border-radius: 0%;
     border-style: none;
+
 }
 
-#carouselExample img{
+#carouselExampleAutoplaying img{
     height: 500px;
     width: 500px;
     border-radius: 0%;
@@ -42,7 +71,20 @@ header img{
 }
 
 .intro{
-    font-family: "Libre Bodoni", serif; tamaño-óptico-de-fuente: automático; peso de fuente: <peso>; estilo de fuente: normal;
+    font-family: "Libre Bodoni";
     padding: 10px;
     margin-bottom: 10px;
+    color: white;
+}
+
+.card-body1{
+    background-color: rgb(116, 45, 152);
+}
+
+.card-body2{
+    background-color: rgb(36, 84, 150);
+}
+
+.card-body3{
+    background-color: rgb(19, 19, 101);
 }

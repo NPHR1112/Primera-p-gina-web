@@ -10,225 +10,363 @@
 
 </head>
 
-<body style="background-color:rgb(176, 211, 142);">
+<body class="intro">
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img src="./Imagenes/Título.png" alt="">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-md-3">
-            <li class="nav-item">
-              <a class="selected text-decoration-none" aria-current="page" href="#acuaticos">SERES ACUÁTICOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="selected text-decoration-none" aria-current="page" href="#terrestres">SERES TERRESTRES</a>
-            </li>
-            <li class="nav-item">
-              <a class="selected text-decoration-none" aria-current="page" href="#voladores">SERES VOLADORES</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+    <div class="encabezado">
+      <img src="./Imagenes/Título.png" alt="">
+    </div>
+
+    <nav class="navbar justify-content-center" style="background-color:rgb(49, 13, 92);">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary barra">
+        <div class="container-fluid" style="background-color:rgb(49, 13, 92);">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#acuaticos">SERES ACUATICOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="#terrestres">SERES TERRESTRES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="#voladores">SERES VOLADORES</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
     </nav>
+
+
   </header>
 
-  <div id="carouselExample" class="carousel slide">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./Imagenes/centauro-carrosuel.jpg" class="d-block w-100" alt="...">
+        <img src="./Imagenes/cecaeliacarrusel1.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./Imagenes/Dragon-carrousel.webp" class="d-block w-100" alt="...">
+        <img src="./Imagenes/grifocarrusel1.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./Imagenes/Sirena-carrousel.webp" class="d-block w-100" alt="...">
+        <img src="./Imagenes/dragoncarrusel1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagenes/sirenacarrusel1.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
 
-  <div class="intro">
-    <h4>Los seres mitologicos son criaturas imaginarias, ficticias, mitologica o legendaria son denominaciones que se les
+
+  <div class="container container-fluid text-center pf text-light">
+    <h4>Los seres mitologicos son criaturas imaginarias, ficticias, mitologica o legendaria son denominaciones que se
+      les
       dan a los distintos seres presentes en la mitologia o leyendas de distintas civilizaciones, muchas se perciben
       como mounstruos inconcebibles por viajeros de otras culturas y la mayoría son una combinación de dos o más
       animales o con el ser humano. Dentro de la historia los seres se encontraban en distintos entornos como el cielo,
       el agua y la tierra y aquí te presentamos algunos de los seres más emblematicos.</h4>
   </div>
 
-  <div class="contenedor intro">
+  <div class="contenedorgral">
     <div id="acuaticos">
-    <div class="row text-center">
-    
-      <h2 class="caja1">SERES ACUÁTICOS</h2>
-
-      <div class="caja1 col-md-3">
-        <h2>Cecaelia</h2>
-        <img src="./Imagenes/cecaelia.jpg" alt="Cecaelia">
-        <p>La cecaelia es un ser marino cuya parte superior es similar a la de un humano, generalmente una mujer, y la
-          inferior a la de un pulpo. Suelen tener el torso, los brazos y el rostro de una hermosa mujer rubia o de
-          cabello plateado. En lugar de piernas poseen 8 poderosos tentáculos cuyo color puede variar del rosa al
-          morado. Gracias a ellos consiguen una enorme fuerza y agilidad, sobre todo cuando bucean y nadan.</p>
-      </div>
-
-      <div class="caja1 col-md-3">
-        <h2>Kraken</h2>
-        <img src="./Imagenes/kraken.jpg" alt="Kraken">
-        <p>El kraken es un enorme monstruo submarino que se encuentra en océanos y aguas profundas, puede medir unos 90
-          metros de alto por término medio, cuando se acerca a la superficie y permanece quieto se puede confundir con
-          una isla .Su aspecto se asemeja al de un pulpo gigante con numerosos tentáculos y unos enormes ojos rojos con
-          los que controla cualquier movimiento de otras criaturas, tanto dentro como fuera de las aguas. Tiene también
-          dos tentáculos especiales, recubiertos de lengüetas afiladas, que usa para atacar.</p>
-      </div>
-
-      <div class="caja1 col-md-3">
-        <h2>Leviatán</h2>
-        <img src="./Imagenes/leviatan.jpg" alt="Leviatán">
-        <p>El leviatán es un ser monstruoso perteneciente a la mitología hebrea, mezcla entre una serpiente de mar y una
-          ballena, tiene el cuerpo con escamas muy juntas, a modo de escudo protector, dientes afilados y forma de
-          reptil, de hecho, es bastante parecido a un dragón sin alas en su aspecto externo. Sus escamas son de color
-          verde esmeralda o turquesa y es capaz de expulsar un ácido vaporizado por la boca, pudiendo provocar así
-          quemaduras corrosivas en sus víctimas. Sus ojos están siempre iluminados, como incandescentes.</p>
-      </div>
-
-      <div class="caja1 col-md-3">
-        <h2>Sirenas</h2>
-        <img src="./Imagenes/sirenas.jpg" alt="Sirena">
-        <p>Las sirenas son mujeres-pez de gran belleza y con una preciosa voz, tiene la parte superior del cuerpo de una
-          hermosa mujer de piel bronceada y de cabellos rubios o verdosos y su parte inferior es la de un pez con cola y
-          escamas verdes, plateadas o pardas. Su alimentación se basa en algas, plancton y peces pequeños. Para respirar
-          bajo el mar usan las escamas de su parte de pez, que les permiten estar varios días bajo el agua sin necesidad
-          de salir a la superficie.</p>
-      </div>
-
-      </div>
-      </div>
-    </div>
-
-
-
-    <div class="contenedor">
-      <div id="terrestres">
       <div class="row text-center">
 
-        <h2 class="caja2">SERES TERRESTRES</h2>
-
-        <div class="caja2 col-md-3">
-          <h2>Centauro</h2>
-          <img src="./Imagenes/centauro.jpg" alt="Centauro">
-          <p>El centauro es un ser con cuerpo de caballo y el torso, brazos y cabeza de hombre, son conocidos por sus
-            habilidades con la lanza y con el arco, aunque también pueden usar garrotes y escudos a la hora de la lucha.
-            Es habitual encontrarlos en prados, claros y bosques de hoja caduca, son muy sociables con otras especies
-            del bosque.Son seres de gran fuerza, sobre todo por su parte animal, esta parte de caballo les permite
-            cocear, pisotear y cargar con lanza.</p>
+        <div class="container container-fluid fagua">
+          <h2>SERES ACUÁTICOS</h2><br>
+          <h4>Los seres mitológicos marinos son algunos de las más fascinantes de la mitología. Desde sirenas hasta
+            dioses del agua y ninfas, estas criaturas han formado parte de la tradición marítima durante siglos. Ya sean
+            benévolas o malévolas, estas criaturas mitológicas marinas han pasado a formar parte del folclore marítimo y
+            seguro que cautivarán la imaginación de muchos en los años venideros.</h4>
         </div>
 
-        <div class="caja2 col-md-3">
-          <h2>Dríadas</h2>
-          <img src="./Imagenes/driada.jpg" alt="Dríada">
-          <p>Las dríadas son duendes de los árboles con forma femenina, muy solitarias y de gran belleza, tienen los
-            ojos violeta o verde oscuro y su cabello y piel cambian de color según la estación de esta forma pueden
-            camuflarse entre el bosque sin que se las vea. En el invierno su pelo y piel son blancos, en otoño rojizos,
-            y en primavera y verano tienen la piel muy bronceada y el pelo verde.Cada dríada pertenece a un roble del
-            bosque, se hayan unidas a su árbol de por vida y no pueden alejarse a más de 300 metros de éste o mueren
-            lentamente.</p>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="Imagenes/cecaelia.jpg" class="card-img-top" alt="Cecaelia img">
+              <div class="card-body1 text-light">
+                <h3 class="card-title">Cecaelia</h3>
+                <p class="card-text">La cecaelia es un ser marino cuya parte superior es similar a la de un humano,
+                  generalmente una mujer, y la
+                  inferior a la de un pulpo. Suelen tener el torso, los brazos y el rostro de una hermosa mujer rubia o
+                  de
+                  cabello plateado. En lugar de piernas poseen 8 poderosos tentáculos cuyo color puede variar del rosa
+                  al
+                  morado. Gracias a ellos consiguen una enorme fuerza y agilidad, sobre todo cuando bucean y nadan..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/kraken.jpg" alt="Kraken img">
+              <div class="card-body1 text-light">
+                <h3 class="card-title">Kraken</h3>
+                <p class="card-text">El kraken es un enorme monstruo submarino que se encuentra en océanos y aguas
+                  profundas, puede medir unos
+                  90
+                  metros de alto por término medio, cuando se acerca a la superficie y permanece quieto se puede
+                  confundir con
+                  una isla .Su aspecto se asemeja al de un pulpo gigante con numerosos tentáculos y unos enormes ojos
+                  rojos
+                  con
+                  los que controla cualquier movimiento de otras criaturas, tanto dentro como fuera de las aguas. Tiene
+                  también
+                  dos tentáculos especiales, recubiertos de lengüetas afiladas, que usa para atacar.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/leviatan.jpg" alt="Leviatán img">
+              <div class="card-body1 text-light">
+                <h3 class="card-title">Leviatán</h3>
+                <p class="card-text">El leviatán es un ser monstruoso perteneciente a la mitología hebrea, mezcla entre
+                  una serpiente de mar y
+                  una
+                  ballena, tiene el cuerpo con escamas muy juntas, a modo de escudo protector, dientes afilados y forma
+                  de
+                  reptil, de hecho, es bastante parecido a un dragón sin alas en su aspecto externo. Sus escamas son de
+                  color
+                  verde esmeralda o turquesa y es capaz de expulsar un ácido vaporizado por la boca, pudiendo provocar
+                  así
+                  quemaduras corrosivas en sus víctimas. Sus ojos están siempre iluminados, como incandescentes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/sirenas.jpg" alt="Sirena img">
+              <div class="card-body1 text-light">
+                <h3 class="card-title">Sirenas</h3>
+                <p class="card-text">Las sirenas son mujeres-pez de gran belleza y con una preciosa voz, tiene la parte
+                  superior del cuerpo de
+                  una
+                  hermosa mujer de piel bronceada y de cabellos rubios o verdosos y su parte inferior es la de un pez
+                  con cola
+                  y
+                  escamas verdes, plateadas o pardas. Su alimentación se basa en algas, plancton y peces pequeños. Para
+                  respirar
+                  bajo el mar usan las escamas de su parte de pez, que les permiten estar varios días bajo el agua sin
+                  necesidad
+                  de salir a la superficie.</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="caja2 col-md-3">
-          <h2>Elfos</h2>
-          <img src="./Imagenes/elfos.jpg" alt="Elfo">
-          <p>Los elfos son una de las razas más antiguas y venerables que se conocen. De aspecto frágil y delicado, son
-            facilmente reconocibles por sus orejas puntiagudas, piel pálida y ojos almendrados. Viven cientos de años,
-            incluso se piensa que son inmortales. A pesar de ser menos corpulentos que los humanos, tienen mayor
-            agilidad y destreza en sus movimientos. Son grandes conocedores de los bosques en los que habitan y sus
-            ropas en tonos verdes les permiten camuflarse aún más dentro de este hábitat.</p>
-        </div>
-
-        <div class="caja2 col-md-3">
-          <h2>Ninfas</h2>
-          <img src="./Imagenes/ninfa.jpg" alt="Ninfa">
-          <p>Las ninfas son seres mágicos procedentes de las fuerzas de la naturaleza. Su creación es simple; la esencia
-            natural de ninfa crea un cuerpo y lo «habita». Este cuerpo es siempre el de una mujer de enorme atractivo y
-            encanto, además es un ser muy inteligente, de mente rápida e ingeniosa. Aumentan su encanto hablando en su
-            propio lenguaje musical y cualquier animal que esté cerca de una ninfa se acercará para ser acariciado por
-            ella, sin importarle tener cerca incluso a su peor enemigo.</p>
-        </div>
-      </div>
       </div>
     </div>
+  </div>
+  </div>
 
-    <div class="contenedor">
-      <div id="voladores">
+  <div class="contenedorgral">
+    <div id="terrestres">
       <div class="row text-center">
 
-        <h2 class="caja3">SERES VOLADORES</h2>
-
-        <div class="caja3 col-md-3">
-          <h2>Dragón</h2>
-          <img src="./Imagenes/dragon.jpg" alt="Dragón">
-          <p>Los dragones son inmensos reptiles alados pertenecientes a una de las razas más antiguas que existen en la
-            mitología y son conocidos por su enorme figura, de unos treinta metros, y por sus cualidades mágicas. Los
-            dragones se pueden clasificar según el color de sus escamas, dentro de cada especie de dragón hay categorías
-            que se basan en la edad. El poder de un dragón va en aumento con los años, de manera que los dragones
-            adultos son, posiblemente, las criaturas más poderosas dentro del mundo mitológico.</p>
+        <div class="container container-fluid ftierra">
+          <h2>SERES TERRESTRES</h2>
+          <h4>Estos seres se encuentran entre las especies mágicas, fantásticas o subreales así como seres híbridos
+            que en su cuerpo poseen partes de animales y partes de humanos con habilidades etéreas, mágicas y
+            espirituales y en su mayoría habitan en los bosques.</h4>
         </div>
 
-        <div class="caja3 col-md-3">
-          <h2>Pegaso</h2>
-          <img src="./Imagenes/pegaso.jpg" alt="Pegaso">
-          <p>Un pegaso es un corcel alado de naturaleza mágica, inteligente, bondadoso y salvaje. Se trata de una
-            criatura muy tímida que sólo puede ser domada por jinetes de buen corazón, los pegasos detectan el mal
-            innatamente y no servirán a quien intente domarlos con fines malvados. Tienen la forma y el tamaño de un
-            caballo árabe y unas enormes alas emplumadas, suelen ser blancos, aunque también se conocen pegasos marrones
-            y hay rumores de pegasos negros. Independientemente de su color, todos los pegasos son seres afables y
-            nobles.</p>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="Imagenes/centauro.jpg" class="card-img-top" alt="Centauro img">
+              <div class="card-body2 text-light">
+                <h3 class="card-title">Centauro</h3>
+                <p class="card-text">El centauro es un ser con cuerpo de caballo y el torso, brazos y cabeza de hombre,
+                  son conocidos por sus
+                  habilidades con la lanza y con el arco, aunque también pueden usar garrotes y escudos a la hora de la
+                  lucha.
+                  Es habitual encontrarlos en prados, claros y bosques de hoja caduca, son muy sociables con otras
+                  especies
+                  del bosque.Son seres de gran fuerza, sobre todo por su parte animal, esta parte de caballo les permite
+                  cocear, pisotear y cargar con lanza.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/driada.jpg" alt="Driada img">
+              <div class="card-body2 text-light">
+                <h3 class="card-title">Dríadas</h3>
+                <p class="card-text">Las dríadas son duendes de los árboles con forma femenina, muy solitarias y de gran
+                  belleza, tienen los
+                  ojos violeta o verde oscuro y su cabello y piel cambian de color según la estación de esta forma
+                  pueden
+                  camuflarse entre el bosque sin que se las vea. En el invierno su pelo y piel son blancos, en otoño
+                  rojizos,
+                  y en primavera y verano tienen la piel muy bronceada y el pelo verde.Cada dríada pertenece a un roble
+                  del
+                  bosque, se hayan unidas a su árbol de por vida y no pueden alejarse a más de 300 metros de éste o
+                  mueren
+                  lentamente.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/elfos.jpg" alt="Elfos img">
+              <div class="card-body2 text-light">
+                <h3 class="card-title">Elfos</h3>
+                <p class="card-text">Los elfos son una de las razas más antiguas y venerables que se conocen. De aspecto
+                  frágil y delicado, son
+                  facilmente reconocibles por sus orejas puntiagudas, piel pálida y ojos almendrados. Viven cientos de
+                  años,
+                  incluso se piensa que son inmortales. A pesar de ser menos corpulentos que los humanos, tienen mayor
+                  agilidad y destreza en sus movimientos. Son grandes conocedores de los bosques en los que habitan y
+                  sus
+                  ropas en tonos verdes les permiten camuflarse aún más dentro de este hábitat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/ninfa.jpg" alt="Ninfa img">
+              <div class="card-body2 text-light">
+                <h3 class="card-title">Ninfas</h3>
+                <p class="card-text">Las ninfas son seres mágicos procedentes de las fuerzas de la naturaleza. Su
+                  creación es simple; la esencia
+                  natural de ninfa crea un cuerpo y lo «habita». Este cuerpo es siempre el de una mujer de enorme
+                  atractivo y
+                  encanto, además es un ser muy inteligente, de mente rápida e ingeniosa. Aumentan su encanto hablando
+                  en su
+                  propio lenguaje musical y cualquier animal que esté cerca de una ninfa se acercará para ser acariciado
+                  por
+                  ella, sin importarle tener cerca incluso a su peor enemigo.</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="caja3 col-md-3">
-          <h2>Fénix</h2>
-          <img src="./Imagenes/fenix.jpg" alt="Fénix">
-          <p>El Ave Fénix es un enorme pájaro envuelto en llamas y de plumaje rojo anaranjado, como el fuego, se cree
-            que fue el único animal del Edén que resistió la tentación, y esto lo convirtió en un ser eterno. Cuando el
-            fénix ha cumplido su periodo vital construye un nido con maderas aromáticas y sándalo que más tarde quema
-            con un golpe de sus plumas el fénix arde y una vez que se ha convertido en cenizas renace de entre éstas un
-            fénix joven y nuevo.</p>
-        </div>
-
-        <div class="caja3 col-md-3">
-          <h2>Grifo</h2>
-          <img src="./Imagenes/grifo.jpg" alt="Grifo">
-          <p>Son seres voladores muy feroces, mitad león y mitad águila: la parte superior es la de un águila gigante
-            con plumas doradas, un afilado pico y poderosas garrasy la parte inferior es la de un león con pelaje
-            amarillo, musculosas patas y cola. Estos seres tienen características de los dos animales de los que están
-            formados, por parte de las águilas tienen una vista y un olfato muy desarrollados y su parte de león les
-            lleva a vivir en manadas, dentro de las cuales siempre hay un líder.</p>
-        </div>
-      </div>
       </div>
     </div>
+  </div>
 
-    <div>
+  <div class="contenedorgral">
+    <div id="voladores">
+      <div class="row text-center">
+
+        <div class="container container-fluid faire">
+          <h2>SERES VOLADORES</h2>
+          <h4>Son seres con fuerzas sobrenaturales y diferentes habilidades físicas poderosas de
+            de formas diversas además de sus características alas. Las alas son un símbolo de vuelo, de ascensión y en numerosas ocasiones están
+            vinculadas a las divinidades de las distintas culturas de la humanidad.</h4>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <div>
+              <img src="./Imagenes/dragon.jpg" class="card-img-top" alt="Dragón img">
+              <div class="card-body3 text-light">
+                <h3 class="card-title">Dragones</h3>
+                <p class="card-text">Los dragones son inmensos reptiles alados pertenecientes a una de las razas más
+                  antiguas que existen en la
+                  mitología y son conocidos por su enorme figura, de unos treinta metros, y por sus cualidades mágicas.
+                  Los
+                  dragones se pueden clasificar según el color de sus escamas, dentro de cada especie de dragón hay
+                  categorías
+                  que se basan en la edad. El poder de un dragón va en aumento con los años, de manera que los dragones
+                  adultos son, posiblemente, las criaturas más poderosas dentro del mundo mitológico.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/pegaso.jpg" class="card-img-top" alt="Pegaso img">
+              <div class="card-body3 text-light">
+                <h3 class="card-title">Pegaso</h3>
+                <p class="card-text">Un pegaso es un corcel alado de naturaleza mágica, inteligente, bondadoso y
+                  salvaje. Se trata de una
+                  criatura muy tímida que sólo puede ser domada por jinetes de buen corazón, los pegasos detectan el mal
+                  innatamente y no servirán a quien intente domarlos con fines malvados. Tienen la forma y el tamaño de
+                  un
+                  caballo árabe y unas enormes alas emplumadas, suelen ser blancos, aunque también se conocen pegasos
+                  marrones
+                  y hay rumores de pegasos negros. Independientemente de su color, todos los pegasos son seres afables y
+                  nobles.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/fenix.jpg" class="card-img-top" alt="Fénix img">
+              <div class="card-body3 text-light">
+                <h3 class="card-title">Fénix</h3>
+                <p class="card-text">El Ave Fénix es un enorme pájaro envuelto en llamas y de plumaje rojo anaranjado,
+                  como el fuego, se cree
+                  que fue el único animal del Edén que resistió la tentación, y esto lo convirtió en un ser eterno.
+                  Cuando el
+                  fénix ha cumplido su periodo vital construye un nido con maderas aromáticas y sándalo que más tarde
+                  quema
+                  con un golpe de sus plumas el fénix arde y una vez que se ha convertido en cenizas renace de entre
+                  éstas un
+                  fénix joven y nuevo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <img src="./Imagenes/grifo.jpg" class="card-img-top" alt="Grifo img">
+              <div class="card-body3 text-light">
+                <h3 class="card-title">Grifos</h3>
+                <p class="card-text">Son seres voladores muy feroces, mitad león y mitad águila: la parte superior es la
+                  de un águila gigante
+                  con plumas doradas, un afilado pico y poderosas garrasy la parte inferior es la de un león con pelaje
+                  amarillo, musculosas patas y cola. Estos seres tienen características de los dos animales de los que
+                  están
+                  formados, por parte de las águilas tienen una vista y un olfato muy desarrollados y su parte de león
+                  les
+                  lleva a vivir en manadas, dentro de las cuales siempre hay un líder.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+  <h4>
+    ¿Quieres saber más? Te dejo los siguientes videos para saber más acerca de los <strong>Seres Mitológicos</strong>:
+  </h4><br>
+  <div class="row">
+    <div class="col-md-6">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/KxLBBjo29NE?si=j_ak76fogMpA5wpk"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+    <div class="col-md-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rugndrWnlnU?si=enu-IDwfDC7SaN4r"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div><br>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
+
+<footer class="text-center">
+  Esta es mi primera página, espero hayas encontrado interesante la información, gracias por leer.
+</footer>
 
 </html>
